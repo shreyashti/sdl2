@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9; /* Light background for a cleaner look */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 50%;
+    margin: 50px auto;
+    background: #fff; /* White background for contrast */
+    padding: 30px; /* More padding for a spacious feel */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Softer shadow for depth */
+}
+
+h1 {
+    text-align: center;
+    color: #007bff; /* Soft blue color for the heading */
+    margin-bottom: 20px; /* More space below heading */
+}
+
+.upload {
+    margin-bottom: 20px; /* More space between upload sections */
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px; /* Slightly more margin for labels */
+    color: #555; /* Darker color for better readability */
+}
+
+input[type="file"] {
+    width: 100%;
+    padding: 10px; /* Increased padding for better interaction */
+    border: 1px solid #ccc; /* Border for input fields */
+    border-radius: 5px; /* Rounded edges for input fields */
+    margin-bottom: 15px; /* More space below input fields */
+    font-size: 16px; /* Larger text for better readability */
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 12px; /* Increased padding for better clickability */
+    background-color: #28a745; /* Green button color */
+    color: white;
+    border: none;
+    border-radius: 5px; /* Rounded corners for the button */
+    font-size: 16px; /* Font size adjustment for clarity */
+    cursor: pointer;
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+button:hover {
+    background-color: #218838; /* Darker green on hover */
+}
+
+/* Footer styling */
+.footer {
+    text-align: center;
+    margin-top: 20px; /* Space above footer */
+    color: #555; /* Darker color for footer text */
+}
+
+
